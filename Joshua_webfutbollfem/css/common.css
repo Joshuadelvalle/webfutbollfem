@@ -1,0 +1,60 @@
+*{
+    MARGIN: 100;
+    PADDING: 0;
+}
+body {
+    background-image: url('../img/cesped.jpg');
+    background-repeat: round;
+    text-align: center;
+    
+}
+.estilo1{
+        border: solid 3px #000000;
+        background-color: cornsilk;
+        width: 20%;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+}
+.estilo2{
+        border: solid 3px #000000;
+        background-color: cornsilk;
+        width: 70%;
+        border-radius: 5px;
+}
+h1{
+        color: cornsilk;
+}
+h1::first-letter{
+        font-size: 200%;
+}
+table{
+        border: solid 3px #000000;
+        background-color: cornsilk;
+}
+footer{
+        border: solid 3px #000000;
+        background-color: cornsilk;
+        width: 60%;
+        border-radius: 5px;
+
+}
+p::first-letter{
+        font-size: 200%;
+}
+.estilo1, .estilo2, table, footer{
+        margin-left: auto;
+        margin-right: auto;
+}
+button{
+        background-color: black;
+        color: cornsilk;
+        border-radius: 15px;
+}
+caption::first-letter{
+        font-size: 200%;
+}
+caption{
+        color: cornsilk;
+}
